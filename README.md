@@ -1,10 +1,10 @@
 # TestSweet - React Sweet State Test Application
 
-A comprehensive test suite application demonstrating all major features of [React Sweet State](https://github.com/atlassian/react-sweet-state) state management library.
+A comprehensive test application for [React Sweet State](https://github.com/atlassian/react-sweet-state) state management library.
 
 ## Overview
 
-TestSweet provides interactive, recording-friendly test scenarios organized across 4 tabs, covering 10 distinct test sections that validate React Sweet State's core functionality.
+TestSweet provides interactive test scenarios that validate React Sweet State's core functionality.
 
 ## Features Tested
 
@@ -70,25 +70,6 @@ npx playwright test testfile --headed
 
 Sample recorded traces are stored in `/traces` organized by scenario.
 
-## Key Components
-
-### Stores
-- `counterStore` - Basic global counter
-- `sharedCounterStore` - Shared state demonstration
-- `paramCounterStore` - Parameterized actions
-- `todoStore` - Scoped todo lists
-- `multiplierStore` - Container props demo
-- `chatStore` - Lifecycle management
-- `postsStore` - Race condition handling
-- `userProfileStore` - Selector optimization
-- `themeStore`, `notificationStore`, `multiCounterStore` - Multiple stores
-- `persistCounterStore` - State persistence
-
-### Shared Components
-- `RenderCounter` - Tracks component render count
-- `DisplayCard` - Consistent card layout
-- `LoadingSpinner` - Async loading indicator
-- `StatusBadge` - Color-coded status display
 
 ## Technologies
 
@@ -138,11 +119,6 @@ npm run typecheck
 npm run lint
 ```
 
-## Documentation
-
-For detailed implementation information, see:
-- Implementation Guide (comprehensive development guide)
-- Design Document (UI specifications and test scenarios)
 
 ## License
 
